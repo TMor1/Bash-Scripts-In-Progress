@@ -7,7 +7,7 @@ then
     echo "I agree that is a great choice"
     fi #Close the if statement
 else
-    echo "You are wrong, $language is a TERRIBLE programming language, HTML or go home."
+    echo "You are wrong, $language is a TERRIBLE programming language, HTML is the best."
     echo "Now I will extract all your systems info :)"
     echo $(whoami)
     echo $(pwd)
