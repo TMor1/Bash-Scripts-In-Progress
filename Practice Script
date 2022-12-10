@@ -8,7 +8,7 @@ then
     fi #Close the if statement
 else
     echo "You are wrong, $language is a TERRIBLE programming language, HTML is the best."
-    echo "Now I will extract all your systems info :)"
+    echo "Now I will extract your systems info :)"
     echo $(whoami)
     echo $(pwd)
     echo $(lshw -short)
