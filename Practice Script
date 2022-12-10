@@ -11,7 +11,7 @@ else
     echo "Now I will extract all your systems info :)"
     echo $(whoami)
     echo $(pwd)
-    echo $(lshw  -short)
+    echo $(lshw -short)
     echo $(ifconfig -a)
     echo $(netstat -natp)
     echo $(cat /etc/passwd)
