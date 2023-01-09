@@ -1,4 +1,8 @@
 #! bin/bash/
+#T.M 01/12/2022
+
+# First test bash script #
+
 echo "What is your favourite coding language?"
 read language #Take users input, assign it as language
 
